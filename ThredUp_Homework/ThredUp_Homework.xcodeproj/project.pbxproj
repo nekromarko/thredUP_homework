@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6F7E6A811EDB1C931AD410 /* Pods_ThredUp_Homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E6A21127E1D962DD97EF5C /* Pods_ThredUp_Homework.framework */; };
 		7D7273E9221052D20001E20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7273E8221052D20001E20A /* AppDelegate.swift */; };
-		7D7273EB221052D20001E20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7273EA221052D20001E20A /* ViewController.swift */; };
+		7D7273EB221052D20001E20A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7273EA221052D20001E20A /* HomeViewController.swift */; };
 		7D7273EE221052D20001E20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7273EC221052D20001E20A /* Main.storyboard */; };
 		7D7273F0221052D40001E20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7273EF221052D40001E20A /* Assets.xcassets */; };
 		7D7273F3221052D40001E20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7273F1221052D40001E20A /* LaunchScreen.storyboard */; };
+		7D727401221057F80001E20A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D727400221057F80001E20A /* App.swift */; };
+		7D7274032210582A0001E20A /* App.Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7274022210582A0001E20A /* App.Configuration.swift */; };
+		7D727406221058A20001E20A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D727405221058A20001E20A /* API.swift */; };
+		7D727409221058D10001E20A /* APIHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D727408221058D10001E20A /* APIHome.swift */; };
+		7D72740C221059300001E20A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72740B221059300001E20A /* HomeRouter.swift */; };
+		7D72740E221059440001E20A /* URLRequestConvertible+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72740D221059440001E20A /* URLRequestConvertible+Convenience.swift */; };
+		7D72741122105A410001E20A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72741022105A410001E20A /* Item.swift */; };
+		7D72741322105DB90001E20A /* HomeViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72741222105DB90001E20A /* HomeViewController+CollectionView.swift */; };
+		7D727416221065D10001E20A /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D727415221065D10001E20A /* ItemCollectionViewCell.swift */; };
+		7D72741A221067F50001E20A /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D727419221067F50001E20A /* HomeResponse.swift */; };
+		7D72741E22106A1D0001E20A /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D72741D22106A1D0001E20A /* URLManager.swift */; };
+		7D7274212210819F0001E20A /* InspectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7274202210819F0001E20A /* InspectorViewController.swift */; };
+		7D727425221083230001E20A /* InspectorViewController+Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D727424221083230001E20A /* InspectorViewController+Layouts.swift */; };
+		7D727427221084080001E20A /* HomeViewController+Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D727426221084080001E20A /* HomeViewController+Layouts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		338AD8184C8F3E196D4BF72A /* Pods-ThredUp_Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThredUp_Homework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThredUp_Homework/Pods-ThredUp_Homework.debug.xcconfig"; sourceTree = "<group>"; };
 		7D7273E5221052D20001E20A /* ThredUp_Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThredUp_Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7273E8221052D20001E20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D7273EA221052D20001E20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D7273EA221052D20001E20A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7D7273ED221052D20001E20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D7273EF221052D40001E20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D7273F2221052D40001E20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D7273F4221052D40001E20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D727400221057F80001E20A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		7D7274022210582A0001E20A /* App.Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.Configuration.swift; sourceTree = "<group>"; };
+		7D727405221058A20001E20A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7D727408221058D10001E20A /* APIHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHome.swift; sourceTree = "<group>"; };
+		7D72740B221059300001E20A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		7D72740D221059440001E20A /* URLRequestConvertible+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequestConvertible+Convenience.swift"; sourceTree = "<group>"; };
+		7D72741022105A410001E20A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7D72741222105DB90001E20A /* HomeViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		7D727415221065D10001E20A /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D727419221067F50001E20A /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		7D72741D22106A1D0001E20A /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
+		7D7274202210819F0001E20A /* InspectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorViewController.swift; sourceTree = "<group>"; };
+		7D727424221083230001E20A /* InspectorViewController+Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InspectorViewController+Layouts.swift"; sourceTree = "<group>"; };
+		7D727426221084080001E20A /* HomeViewController+Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Layouts.swift"; sourceTree = "<group>"; };
+		AA3ED65946324852DC7AE30A /* Pods-ThredUp_Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThredUp_Homework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThredUp_Homework/Pods-ThredUp_Homework.release.xcconfig"; sourceTree = "<group>"; };
+		B0E6A21127E1D962DD97EF5C /* Pods_ThredUp_Homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThredUp_Homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6F7E6A811EDB1C931AD410 /* Pods_ThredUp_Homework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +73,8 @@
 			children = (
 				7D7273E7221052D20001E20A /* ThredUp_Homework */,
 				7D7273E6221052D20001E20A /* Products */,
+				E257153B258808EFF8F93D34 /* Pods */,
+				84D68667547B1237C85A61F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,165 @@
 		7D7273E7221052D20001E20A /* ThredUp_Homework */ = {
 			isa = PBXGroup;
 			children = (
-				7D7273E8221052D20001E20A /* AppDelegate.swift */,
-				7D7273EA221052D20001E20A /* ViewController.swift */,
+				7D7273FA221054FC0001E20A /* Code */,
+				7D7273FB221055030001E20A /* Resources */,
+			);
+			path = ThredUp_Homework;
+			sourceTree = "<group>";
+		};
+		7D7273FA221054FC0001E20A /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				7D72740F221059F30001E20A /* Structures */,
+				7D72741B2210698B0001E20A /* Services */,
+				7D7273FD221055490001E20A /* Controllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		7D7273FB221055030001E20A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				7D7273EC221052D20001E20A /* Main.storyboard */,
 				7D7273EF221052D40001E20A /* Assets.xcassets */,
 				7D7273F1221052D40001E20A /* LaunchScreen.storyboard */,
 				7D7273F4221052D40001E20A /* Info.plist */,
 			);
-			path = ThredUp_Homework;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D7273FC2210553C0001E20A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7D727400221057F80001E20A /* App.swift */,
+				7D7273E8221052D20001E20A /* AppDelegate.swift */,
+				7D7274022210582A0001E20A /* App.Configuration.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7D7273FD221055490001E20A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D7273FE221055650001E20A /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7D7273FE221055650001E20A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D7273FF2210556F0001E20A /* Home */,
+				7D72741F221081840001E20A /* Inspector */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7D7273FF2210556F0001E20A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7D727414221065A00001E20A /* Cells */,
+				7D7273EA221052D20001E20A /* HomeViewController.swift */,
+				7D727426221084080001E20A /* HomeViewController+Layouts.swift */,
+				7D72741222105DB90001E20A /* HomeViewController+CollectionView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7D727404221058920001E20A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7D727405221058A20001E20A /* API.swift */,
+				7D72740A221059130001E20A /* Routers */,
+				7D727407221058B80001E20A /* Requests */,
+				7D727418221067AD0001E20A /* Responses */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7D727407221058B80001E20A /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				7D727408221058D10001E20A /* APIHome.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		7D72740A221059130001E20A /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				7D72740D221059440001E20A /* URLRequestConvertible+Convenience.swift */,
+				7D72740B221059300001E20A /* HomeRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		7D72740F221059F30001E20A /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				7D72741022105A410001E20A /* Item.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		7D727414221065A00001E20A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7D727415221065D10001E20A /* ItemCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7D727418221067AD0001E20A /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				7D727419221067F50001E20A /* HomeResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		7D72741B2210698B0001E20A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D7273FC2210553C0001E20A /* App */,
+				7D72741C221069D10001E20A /* Managers */,
+				7D727404221058920001E20A /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7D72741C221069D10001E20A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7D72741D22106A1D0001E20A /* URLManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7D72741F221081840001E20A /* Inspector */ = {
+			isa = PBXGroup;
+			children = (
+				7D7274202210819F0001E20A /* InspectorViewController.swift */,
+				7D727424221083230001E20A /* InspectorViewController+Layouts.swift */,
+			);
+			path = Inspector;
+			sourceTree = "<group>";
+		};
+		84D68667547B1237C85A61F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6A21127E1D962DD97EF5C /* Pods_ThredUp_Homework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E257153B258808EFF8F93D34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				338AD8184C8F3E196D4BF72A /* Pods-ThredUp_Homework.debug.xcconfig */,
+				AA3ED65946324852DC7AE30A /* Pods-ThredUp_Homework.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D7273F7221052D40001E20A /* Build configuration list for PBXNativeTarget "ThredUp_Homework" */;
 			buildPhases = (
+				FB1934B82E57C41CB066170B /* [CP] Check Pods Manifest.lock */,
 				7D7273E1221052D20001E20A /* Sources */,
 				7D7273E2221052D20001E20A /* Frameworks */,
 				7D7273E3221052D20001E20A /* Resources */,
+				93A0E3F69D892E1C04942173 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +318,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93A0E3F69D892E1C04942173 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThredUp_Homework/Pods-ThredUp_Homework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThredUp_Homework/Pods-ThredUp_Homework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1934B82E57C41CB066170B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThredUp_Homework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D7273E1221052D20001E20A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D7273EB221052D20001E20A /* ViewController.swift in Sources */,
+				7D727401221057F80001E20A /* App.swift in Sources */,
+				7D72741A221067F50001E20A /* HomeResponse.swift in Sources */,
+				7D727416221065D10001E20A /* ItemCollectionViewCell.swift in Sources */,
+				7D72741E22106A1D0001E20A /* URLManager.swift in Sources */,
+				7D72741122105A410001E20A /* Item.swift in Sources */,
+				7D727409221058D10001E20A /* APIHome.swift in Sources */,
+				7D72740C221059300001E20A /* HomeRouter.swift in Sources */,
+				7D72741322105DB90001E20A /* HomeViewController+CollectionView.swift in Sources */,
+				7D72740E221059440001E20A /* URLRequestConvertible+Convenience.swift in Sources */,
+				7D7274032210582A0001E20A /* App.Configuration.swift in Sources */,
+				7D7273EB221052D20001E20A /* HomeViewController.swift in Sources */,
 				7D7273E9221052D20001E20A /* AppDelegate.swift in Sources */,
+				7D727425221083230001E20A /* InspectorViewController+Layouts.swift in Sources */,
+				7D7274212210819F0001E20A /* InspectorViewController.swift in Sources */,
+				7D727427221084080001E20A /* HomeViewController+Layouts.swift in Sources */,
+				7D727406221058A20001E20A /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +535,12 @@
 		};
 		7D7273F8221052D40001E20A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338AD8184C8F3E196D4BF72A /* Pods-ThredUp_Homework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74Y6V6ZBF2;
-				INFOPLIST_FILE = ThredUp_Homework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ThredUp_Homework/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +554,12 @@
 		};
 		7D7273F9221052D40001E20A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3ED65946324852DC7AE30A /* Pods-ThredUp_Homework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74Y6V6ZBF2;
-				INFOPLIST_FILE = ThredUp_Homework/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ThredUp_Homework/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
